@@ -30,5 +30,7 @@ picosystem_executable(${NAME}
 	control.cpp
 )
 
+target_link_libraries(${NAME} pico_multicore)
+
 pixel_double(${NAME})
 
